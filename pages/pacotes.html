@@ -4,12 +4,87 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description"
+    content="Pacotes e serviços de viagem TripWay. Consultoria, pacotes para praia, aventura e mais.">
+  <title>Pacotes e Serviços - TripWay</title>
+  <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-  <h1>Pacotes</h1>
-  <p>Confira nossos pacotes turísticos!</p>
+  <header>
+    <div class="nav-container">
+      <a href="../index.html" class="logo">TripWay</a>
+      <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="destinos.html">Destinos</a></li>
+          <li><a href="pacotes.html" class="active">Pacotes</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="section-title">Nossos Pacotes e Serviços</h1>
+
+    <section class="cards-container">
+      <!-- Serviço 1 -->
+      <article class="card">
+        <div class="card-content">
+          <h3 style="color: var(--primary-color);">Pacote Praia</h3>
+          <p>Hospedagem de 7 dias, passagens aéreas, transfer aeroporto-hotel e passeios turísticos guiados.
+            Ideal para relaxar e aproveitar o mar com conforto.</p>
+          <div style="margin-bottom: 1.5rem; font-weight: bold; font-size: 1.2rem;">A partir de R$ 2.500</div>
+          <a href="contato.html" class="btn btn-block">Reservar</a>
+        </div>
+      </article>
+
+      <!-- Serviço 2 -->
+      <article class="card">
+        <div class="card-content">
+          <h3 style="color: var(--primary-color);">Pacote Aventura</h3>
+          <p>5 dias de pura adrenalina com trilhas, escalada, e equipamentos inclusos. Acompanhamento de guias
+            especializados em turismo ecológico.</p>
+          <div style="margin-bottom: 1.5rem; font-weight: bold; font-size: 1.2rem;">A partir de R$ 1.800</div>
+          <a href="contato.html" class="btn btn-block">Reservar</a>
+        </div>
+      </article>
+
+      <!-- Serviço 3 -->
+      <article class="card">
+        <div class="card-content">
+          <h3 style="color: var(--primary-color);">Consultoria de Viagem</h3>
+          <p>Não sabe para onde ir? Nossos consultores montam um roteiro 100% personalizado baseado no seu
+            orçamento e preferências pessoais.</p>
+          <div style="margin-bottom: 1.5rem; font-weight: bold; font-size: 1.2rem;">Consulte-nos</div>
+          <a href="contato.html" class="btn btn-block">Saiba Mais</a>
+        </div>
+      </article>
+
+      <!-- Serviço 4 -->
+      <article class="card">
+        <div class="card-content">
+          <h3 style="color: var(--primary-color);">Pacote Internacional</h3>
+          <p>Viaje para o exterior com tudo organizado: visto, passagens, seguro viagem, chip internacional e
+            hospedagem premium.</p>
+          <div style="margin-bottom: 1.5rem; font-weight: bold; font-size: 1.2rem;">A partir de R$ 8.900</div>
+          <a href="contato.html" class="btn btn-block">Reservar</a>
+        </div>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 TripWay. Todos os direitos reservados. Arthur Zambão Leite. Checkpoint 2 Front-End.</p>
+  </footer>
+
+  <script src="../js/main.js"></script>
 </body>
 
 </html>
