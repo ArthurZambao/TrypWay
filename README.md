@@ -4,7 +4,7 @@
 - Arthur Zambão Leite - RM574150
 
 ## Descrição
-Projeto desenvolvido para a disciplina de Front-End, com o objetivo de criar um site multipágina para uma empresa fictícia de viagens.
+Projeto desenvolvido para a disciplina de Front-End, com o objetivo de criar um site multipágina para uma empresa de viagens.
 
 ## Projeto
 - Uma folha de estilos externa organizada.
