@@ -5,6 +5,7 @@
 
 ## Descrição
 Projeto desenvolvido para a disciplina de Front-End, com o objetivo de criar um site multipágina para uma empresa fictícia de viagens.
+Como não estive presente para o Check Point 1 da disciplina de Front-end, esse projeto foi criado do zero com o objetivo de cumprir com os requisitos do Check Point 2.
 
 ## Projeto
 - Uma folha de estilos externa organizada.

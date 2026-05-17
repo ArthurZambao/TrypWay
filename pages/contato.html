@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Entre em contato com a TripWay para planejar sua viagem ou tirar dúvidas.">
+  <title>Contato e Reservas - TripWay</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <header>
+    <div class="nav-container">
+      <a href="../index.html" class="logo">TripWay</a>
+      <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="destinos.html">Destinos</a></li>
+          <li><a href="pacotes.html">Pacotes</a></li>
+          <li><a href="contato.html" class="active">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1 class="section-title">Contato e Reservas</h1>
+
+    <div class="form-container">
+      <form action="#" method="POST">
+        <div class="form-group">
+          <label for="nome">Nome Completo</label>
+          <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail</label>
+          <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="destino">Destino de Interesse</label>
+          <select id="destino" name="destino" required>
+            <option value="" disabled selected>Selecione um destino...</option>
+            <option value="praia">Caribe Tropical (Praia)</option>
+            <option value="montanha">Alpes Suíços (Montanha)</option>
+            <option value="cidade">Metrópole Vibrante (Cidade)</option>
+            <option value="outro">Outro</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="data">Data Desejada</label>
+          <input type="date" id="data" name="data" required>
+        </div>
+
+        <div class="form-group">
+          <label for="pessoas">Quantidade de Pessoas</label>
+          <input type="number" id="pessoas" name="pessoas" min="1" max="20" placeholder="Ex: 2" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem"
+            placeholder="Escreva aqui detalhes adicionais da sua viagem ou dúvidas..." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-block">Enviar Reserva</button>
+      </form>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 TripWay. Todos os direitos reservados. Arthur Zambão Leite. Checkpoint 2 Front-End.</p>
+  </footer>
+
+  <script src="../js/main.js"></script>
+</body>
+
+</html>

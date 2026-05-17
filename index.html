@@ -4,12 +4,64 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <meta name="description"
+    content="TripWay - Sua agência de viagens dos sonhos. Encontre os melhores destinos e pacotes.">
+  <title>TripWay - Guia de Viagens</title>
+  <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
-  <h1>Meu Site</h1>
-  <p>Bem-vindo ao meu site!</p>
+  <header>
+    <div class="nav-container">
+      <a href="index.html" class="logo">TripWay</a>
+      <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav id="nav-menu">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="pages/destinos.html">Destinos</a></li>
+          <li><a href="pages/pacotes.html">Pacotes</a></li>
+          <li><a href="pages/contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <img src="./images/banner.jpg" alt="Pôr do sol em uma praia tropical deslumbrante">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>Descubra o Mundo com a TripWay</h1>
+        <p>Experiências inesquecíveis, destinos de tirar o fôlego e o melhor planejamento para a sua viagem.</p>
+        <a href="pages/destinos.html" class="btn">Conhecer Destinos</a>
+      </div>
+    </section>
+
+    <section class="container">
+      <h2 class="section-title">Sobre Nós</h2>
+      <div style="text-align: center; max-width: 800px; margin: 0 auto;">
+        <p style="margin-bottom: 1rem; color: var(--text-light); font-size: 1.1rem;">
+          A <strong>TripWay</strong> é uma agência de viagens inovadora que nasceu com um único propósito:
+          transformar os seus sonhos de viagem em realidade. Com anos de experiência no mercado de turismo,
+          oferecemos não apenas viagens, mas jornadas completas de descobertas e experiências singulares.
+        </p>
+        <p style="color: var(--text-light); font-size: 1.1rem;">
+          Seja relaxando em praias paradisíacas, explorando picos nevados ou mergulhando na cultura de grandes
+          metrópoles, temos o pacote perfeito para você e sua família.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 TripWay. Todos os direitos reservados. Arthur Zambão Leite. Checkpoint 2 Front-End.</p>
+  </footer>
+
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
